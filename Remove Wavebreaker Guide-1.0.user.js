@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Removes elements with class "wavebreaker__guide"
 // @author       Vysokostnyi
-// @match        http://localhost:1100/pvz/*
+// @match        http://*/pvz/acceptance*
 // @grant        none
 // ==/UserScript==
 
