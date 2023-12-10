@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove Wavebreaker Guide
 // @namespace    your-namespace
-// @version      1.0
+// @version      1.1
 // @description  Removes elements with class "wavebreaker__guide"
 // @author       Vysokostnyi
 // @match        http://*/pvz/acceptance*
@@ -36,4 +36,9 @@
 
     // Обработчик события клика на переключатель
     document.addEventListener('click', handleSwitcherClick);
+
+    // Обработчик изменений в дереве DOM
+    document.addEventListener("DOMSubtreeModified", function() {
+        removeWavebreakerGuide();
+    });
 })();
