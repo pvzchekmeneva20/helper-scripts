@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EvilLovetsVoln
 // @namespace    https://t.me/vskni
-// @version      2024-05-26
+// @version      2024-05-27
 // @description  try to take over the world!\Попытайтесь захватить мир!
 // @author       @vskni
 // @match        http://localhost:1100/*
