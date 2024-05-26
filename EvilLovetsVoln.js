@@ -4,7 +4,8 @@
 // @version      2024-05-26
 // @description  try to take over the world!\Попытайтесь захватить мир!
 // @author       @vskni
-// @match        http://localhost:1100/*, http://*/pvz/*
+// @match        http://localhost:1100/*
+// @match        http://*/pvz/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=undefined.localhost
 // @grant        none
 // ==/UserScript==
